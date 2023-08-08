@@ -1,4 +1,4 @@
-const BaseUrl = "https://inventory-back-p4mn.onrender.com:10000/"
+const BaseUrl = "https://inventory-back-p4mn.onrender.com/"
 
 
 export const LoginUrl = BaseUrl + "user/login"
