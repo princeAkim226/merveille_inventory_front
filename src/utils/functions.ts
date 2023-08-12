@@ -111,7 +111,6 @@ export const getGroups = async (
     if(response){
         const data = response.data.results.map(item => ({
             ...item,
-           
         }))
       setGroup(data)
       setFetching(false)
