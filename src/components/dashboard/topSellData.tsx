@@ -18,7 +18,8 @@ const TopSell = () => {
         setLoading(false)
         if(response){
             const data = response.data.map(item => ({
-                ...item, groupInfo: item.group.name, 
+                ...item, 
+                
                 photoInfo: item.photo
             }))
             setData(data)
